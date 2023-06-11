@@ -1,0 +1,1 @@
+# typescript definitions for the overte scripting api
