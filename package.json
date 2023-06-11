@@ -1,5 +1,5 @@
 {
-  "name": "types",
+  "name": "@overte/types",
   "version": "1.0.0",
   "description": "",
   "types": "types.d.ts",
