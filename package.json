@@ -1,11 +1,19 @@
 {
-  "name": "@overte/types",
+  "name": "@types/overte",
+  "type": "module",
   "version": "1.0.0",
   "description": "",
   "types": "types.d.ts",
   "scripts": {
+    "prepack": "node ./scripts/prepack.js",
+    "postpack": "node ./scripts/postpack.js",
+    "testbuild": "npm pack && node ./scripts/test.js"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "tar": "^6.1.15",
+    "zlib": "^1.0.5"
+  }
 }
